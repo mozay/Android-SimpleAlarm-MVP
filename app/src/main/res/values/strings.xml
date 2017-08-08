@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlarmApp</string>
+    <string name="setAlarm">New Alarm</string>
+    <string name="nothingAlarm">Alarm list is empty</string>
+    <string name="updateItem">Update</string>
+    <string name="deleteItem">Delete</string>
+</resources>

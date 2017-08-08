@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TextView
+        android:layout_weight="0.25"
+        android:text="23.45"
+        android:id="@+id/alarmItem"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="left|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/updateItem"
+        android:text="@string/updateItem"
+        android:layout_weight="0.375"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/deleteItem"
+        android:text="@string/deleteItem"
+        android:layout_weight="0.375"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
